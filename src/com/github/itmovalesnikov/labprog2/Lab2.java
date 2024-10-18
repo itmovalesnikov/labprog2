@@ -22,3 +22,8 @@ public class Lab2 {
     }
 }
 
+//javac -cp libs/Pokemon.jar -sourcepath src/ -d build/ src/com/github/itmovalesnikov/labprog2/Lab2.java
+//cd build
+//jar cve com.github.itmovalesnikov.labprog2.Lab2 * > ../Lab2.jar
+//cd ..
+//java -cp Lab2.jar:libs/Pokemon.jar com.github.itmovalesnikov.labprog2.Lab2

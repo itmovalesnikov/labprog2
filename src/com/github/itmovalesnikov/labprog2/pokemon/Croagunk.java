@@ -12,9 +12,8 @@ public class Croagunk extends Pokemon {
         super.setStats(48, 61, 40, 61, 40, 50);
         super.setType(Type.POISON, Type.FIGHTING);
         super.setMove(
-            new PoisonSting(),
-            new WorkUp(),
-            new DarkPulse()
-        );
+                new PoisonSting(),
+                new WorkUp(),
+                new DarkPulse());
     }
 }

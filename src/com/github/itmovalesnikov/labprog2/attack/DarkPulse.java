@@ -5,7 +5,7 @@ import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.SpecialMove;
 import ru.ifmo.se.pokemon.Type;
 
-public class DarkPulse extends SpecialMove {
+public final class DarkPulse extends SpecialMove {
     public DarkPulse() {
         super(Type.DARK, 80, 100);
     }

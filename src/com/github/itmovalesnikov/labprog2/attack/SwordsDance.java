@@ -5,7 +5,7 @@ import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.StatusMove;
 import ru.ifmo.se.pokemon.Type;
 
-public class SwordsDance extends StatusMove{
+public final class SwordsDance extends StatusMove{
     public SwordsDance() {
         this.type = Type.NORMAL;
     }

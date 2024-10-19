@@ -1,0 +1,38 @@
+digraph Attacks {
+    PhysicalMove [shape="record"]
+    SpecialMove [shape="record"]
+    DamageMove [shape="record"]
+    StatusMove [shape="record"]
+    Move [shape="record"]
+    
+    Astonish [shape="record"]
+    Boomburst [shape="record"]
+    Confide [shape="record"]
+    DarkPulse [shape="record"]
+    PoisonSting [shape="record"]
+    RockSlide [shape="record"]
+    RockTomb [shape="record"]
+    Scald [shape="record"]
+    SonicBoom [shape="record"]
+    StoneEdge [shape="record"]
+    SwordsDance [shape="record"]
+    WorkUp [shape="record"]
+    
+    PhysicalMove -> DamageMove
+    SpecialMove -> DamageMove
+    DamageMove -> Move
+    StatusMove -> Move
+    
+    Astonish -> PhysicalMove
+    Boomburst -> SpecialMove
+    Confide -> StatusMove
+    DarkPulse -> SpecialMove
+    PoisonSting -> PhysicalMove
+    RockSlide -> PhysicalMove
+    RockTomb -> PhysicalMove
+    Scald -> SpecialMove
+    SonicBoom -> SpecialMove
+    StoneEdge -> PhysicalMove
+    SwordsDance -> StatusMove
+    WorkUp -> StatusMove
+}

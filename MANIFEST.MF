@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: 17.0.13 (Arch Linux)
+Main-Class: com.github.itmovalesnikov.labprog2.Lab2
+Class-Path: libs/Pokemon.jar
